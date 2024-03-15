@@ -15,7 +15,7 @@ test('zerostep example', async ({ page }) => {
     password: 'Automation4Playwright',
     email: 'ismail@mailinator.com',
     contact_phone: '962780106080',
-    additional_info: ''
+    additional_info: 'This is an additional info about the test with Zerotest using PlayWright'
   }
   
   await ai(`Type "${data.first_name}" in the first name field`, aiArgs)
